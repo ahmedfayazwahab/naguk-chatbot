@@ -1,0 +1,55 @@
+{
+  "brand": "thairoomgrand",
+  "name": "thairoomgrand Midtown",
+  "slug": "thairoomgrand-midtown",
+  "address": "288 Eglinton Ave West",
+  "city": "Toronto",
+  "province": "ON",
+  "postal_code": "M4R 1B2",
+  "phone": "416 481 7000",
+  "email": "info@thairoomgrand.com",
+  "cuisine": "Thai",
+  "price_range": "$$",
+  "hours": {
+    "mon": [
+      "11:00",
+      "22:30"
+    ],
+    "tue": [
+      "11:00",
+      "22:30"
+    ],
+    "wed": [
+      "11:00",
+      "22:30"
+    ],
+    "thu": [
+      "11:00",
+      "22:30"
+    ],
+    "fri": [
+      "11:00",
+      "22:30"
+    ],
+    "sat": [
+      "11:00",
+      "22:30"
+    ],
+    "sun": [
+      "11:00",
+      "22:30"
+    ]
+  },
+  "hours_note": "Hours as published on thairoomgrand.com, which lists a single daily template rather than per-day hours; confirm holiday exceptions by phone.",
+  "timezone": "America/Toronto",
+  "menu_url": "https://thairoomgrand.com/menu/midtown",
+  "order_url": "https://thairoomgrand.com/order/midtown",
+  "reservation_url": "https://reserve.thairoomgrand.com/",
+  "private_events": true,
+  "private_events_url": "https://thairoomgrand.com/private-dining",
+  "gift_card_url": "https://order.toasttab.com/egiftcards/naguk-thairoomgrand-midtown",
+  "description": "Part of the thairoomgrand family (by Naguk Eatery Inc), serving authentic Thai cuisine in a warm, welcoming setting since 2010.",
+  "status": "open",
+  "latitude": 43.7049251,
+  "longitude": -79.4077042
+}

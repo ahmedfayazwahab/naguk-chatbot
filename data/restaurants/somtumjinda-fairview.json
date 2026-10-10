@@ -1,0 +1,55 @@
+{
+  "brand": "Somtum Jinda",
+  "name": "Somtum Jinda Fairview (CF Fairview Mall)",
+  "slug": "somtumjinda-fairview",
+  "address": "Front of T&T, 1800 Sheppard Ave E",
+  "city": "North York",
+  "province": "ON",
+  "postal_code": "M2J 5A7",
+  "phone": "(416) 491-1117",
+  "email": "somtumtoronto@gmail.com",
+  "cuisine": "Thai (Isaan)",
+  "price_range": "$$",
+  "hours": {
+    "mon": [
+      "11:00",
+      "22:00"
+    ],
+    "tue": [
+      "11:00",
+      "22:00"
+    ],
+    "wed": [
+      "11:00",
+      "22:00"
+    ],
+    "thu": [
+      "11:00",
+      "22:00"
+    ],
+    "fri": [
+      "11:00",
+      "23:00"
+    ],
+    "sat": [
+      "11:00",
+      "23:00"
+    ],
+    "sun": [
+      "11:00",
+      "22:00"
+    ]
+  },
+  "hours_note": "",
+  "timezone": "America/Toronto",
+  "menu_url": "https://somtumjinda.ca/menu-fairview",
+  "order_url": "https://www.ubereats.com/store/som-tum-jinda-north-york/GPm0EEvDWVG0P7ZTP3FUhg?diningMode=PICKUP",
+  "reservation_url": "https://www.opentable.ca/r/som-tum-jinda-fairview-mall-reservations-toronto?restref=1433182&lang=en-CA&ot_source=Restaurant%20website",
+  "private_events": false,
+  "private_events_url": "",
+  "gift_card_url": "",
+  "description": "Somtum Jinda specializes in Isaan (Northeastern Thai) cuisine. Located in front of T&T Supermarket inside CF Fairview Mall. Only the Gerrard Street (Downtown) and Fairview locations are part of Naguk Group; the brand's Kensington Market location (356 College St) is run independently and is NOT managed by Naguk Group. Two gift-card links exist on the brand site, but which one maps to which specific location could not be confirmed.",
+  "status": "open",
+  "latitude": 43.7778835,
+  "longitude": -79.3443515
+}

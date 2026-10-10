@@ -1,0 +1,55 @@
+{
+  "brand": "Gabby's",
+  "name": "Gabby's Parkway Mall Scarborough",
+  "slug": "gabbys-parkway-mall-scarborough",
+  "address": "85 Ellesmere Road",
+  "city": "Toronto",
+  "province": "ON",
+  "postal_code": "M1R 4B9",
+  "phone": "(416) 792-3111",
+  "email": "",
+  "cuisine": "Sports Bar & Grill",
+  "price_range": "$$",
+  "hours": {
+    "mon": [
+      "08:00",
+      "02:00"
+    ],
+    "tue": [
+      "08:00",
+      "02:00"
+    ],
+    "wed": [
+      "08:00",
+      "02:00"
+    ],
+    "thu": [
+      "08:00",
+      "02:00"
+    ],
+    "fri": [
+      "08:00",
+      "02:00"
+    ],
+    "sat": [
+      "08:00",
+      "02:00"
+    ],
+    "sun": [
+      "08:00",
+      "02:00"
+    ]
+  },
+  "hours_note": "",
+  "timezone": "America/Toronto",
+  "menu_url": "https://gabbys.ca/locations/parkway-mall-scarborough/menu",
+  "order_url": "https://www.order.store/ca/store/gabbys-parkway-mall/mSvv-H_MRvSKC_wu4G-jSA",
+  "reservation_url": "",
+  "private_events": true,
+  "private_events_url": "https://gabbys.ca/book-an-event",
+  "gift_card_url": "",
+  "description": "Part of Gabby's Kitchen + Bar, a family-owned GTA sports bar and casual restaurant chain since 1989, known for award-winning wings, hand-battered fish & chips, and made-to-order chicken tenders. This location is listed as accepting reservations, but the site's online booking link is currently broken (redirects to the homepage) \u2014 call ahead to reserve.",
+  "status": "open",
+  "latitude": 43.7571759,
+  "longitude": -79.3126469
+}

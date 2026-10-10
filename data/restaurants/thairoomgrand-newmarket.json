@@ -1,0 +1,55 @@
+{
+  "brand": "thairoomgrand",
+  "name": "thairoomgrand Newmarket",
+  "slug": "thairoomgrand-newmarket",
+  "address": "Unit FM08A - 17600 Yonge St",
+  "city": "Newmarket",
+  "province": "ON",
+  "postal_code": "L3Y 4Z1",
+  "phone": "365 337 0221",
+  "email": "info@thairoomgrand.com",
+  "cuisine": "Thai",
+  "price_range": "$$",
+  "hours": {
+    "mon": [
+      "11:00",
+      "22:00"
+    ],
+    "tue": [
+      "11:00",
+      "22:00"
+    ],
+    "wed": [
+      "11:00",
+      "22:00"
+    ],
+    "thu": [
+      "11:00",
+      "22:00"
+    ],
+    "fri": [
+      "11:00",
+      "22:00"
+    ],
+    "sat": [
+      "11:00",
+      "22:00"
+    ],
+    "sun": [
+      "11:00",
+      "22:00"
+    ]
+  },
+  "hours_note": "Hours as published on thairoomgrand.com, which lists a single daily template rather than per-day hours; confirm holiday exceptions by phone.",
+  "timezone": "America/Toronto",
+  "menu_url": "https://thairoomgrand.com/menu/newmarket",
+  "order_url": "https://thairoomgrand.com/order/newmarket",
+  "reservation_url": "https://reserve.thairoomgrand.com/",
+  "private_events": true,
+  "private_events_url": "https://thairoomgrand.com/private-dining",
+  "gift_card_url": "https://order.toasttab.com/egiftcards/naguk-thairoomgrand-newmarket",
+  "description": "Part of the thairoomgrand family (by Naguk Eatery Inc), serving authentic Thai cuisine in a warm, welcoming setting since 2010.",
+  "status": "open",
+  "latitude": 44.0566816,
+  "longitude": -79.4849705
+}

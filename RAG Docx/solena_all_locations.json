@@ -1,0 +1,55 @@
+[
+  {
+    "brand": "Solena Brunch & Bar",
+    "name": "Solena Brunch & Bar",
+    "slug": "solena-brunch-bar",
+    "address": "1224 St Clair Ave W",
+    "city": "Toronto",
+    "province": "ON",
+    "postal_code": "",
+    "phone": "(416) 651-4000",
+    "email": "info@solenabrunch.ca",
+    "cuisine": "Mediterranean-inspired brunch",
+    "price_range": "$$",
+    "hours": {
+      "mon": [
+        "08:00",
+        "15:00"
+      ],
+      "tue": [
+        "08:00",
+        "15:00"
+      ],
+      "wed": [
+        "08:00",
+        "15:00"
+      ],
+      "thu": [
+        "08:00",
+        "15:00"
+      ],
+      "fri": [
+        "08:00",
+        "15:00"
+      ],
+      "sat": [
+        "08:00",
+        "16:00"
+      ],
+      "sun": [
+        "08:00",
+        "16:00"
+      ]
+    },
+    "hours_note": "",
+    "timezone": "America/Toronto",
+    "menu_url": "https://solenabrunch.ca/menu",
+    "order_url": "",
+    "reservation_url": "https://solenabrunch.ca/reservations",
+    "private_events": true,
+    "private_events_url": "https://solenabrunch.ca/events",
+    "gift_card_url": "",
+    "description": "All-day Mediterranean-inspired brunch, premium coffee, and cocktails in Corso Italia. Located next door to Savor Thai (1226 St Clair Ave W), same block. Dedicated vegan/plant-based menu options available. Private events: semi-private dining up to 20 seated, or full restaurant buyout up to 70 seated / 120 cocktail-style. Parties of 9+ must call to book. Parking: Corso Italia Parking Garage (~2 min walk) or 1-43 Norton Ave lot (~3 min walk).",
+    "status": "open"
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "brand": "Gabby's",
+  "name": "Gabby's Ritson Road Oshawa",
+  "slug": "gabbys-ritson-road-oshawa",
+  "address": "214 Ritson Rd N",
+  "city": "Oshawa",
+  "province": "ON",
+  "postal_code": "L1G 1Z7",
+  "phone": "(905) 438-0485",
+  "email": "",
+  "cuisine": "Sports Bar & Grill",
+  "price_range": "$$",
+  "hours": {
+    "mon": [
+      "11:00",
+      "00:00"
+    ],
+    "tue": [
+      "11:00",
+      "00:00"
+    ],
+    "wed": [
+      "11:00",
+      "00:00"
+    ],
+    "thu": [
+      "11:00",
+      "00:00"
+    ],
+    "fri": [
+      "11:00",
+      "00:00"
+    ],
+    "sat": [
+      "11:00",
+      "00:00"
+    ],
+    "sun": [
+      "11:00",
+      "00:00"
+    ]
+  },
+  "hours_note": "",
+  "timezone": "America/Toronto",
+  "menu_url": "https://gabbys.ca/locations/ritson-road-oshawa/menu",
+  "order_url": "https://www.order.store/brand/gabbys",
+  "reservation_url": "",
+  "private_events": true,
+  "private_events_url": "https://gabbys.ca/book-an-event",
+  "gift_card_url": "",
+  "description": "Part of Gabby's Kitchen + Bar, a family-owned GTA sports bar and casual restaurant chain since 1989, known for award-winning wings, hand-battered fish & chips, and made-to-order chicken tenders. Walk-in only at this location \u2014 online reservations are not offered. No location-specific order-online link was published; the brand-wide ordering hub is given instead.",
+  "status": "open",
+  "latitude": 43.9049778,
+  "longitude": -78.8565896
+}

@@ -1,0 +1,532 @@
+[
+  {
+    "brand": "thairoomgrand",
+    "name": "thairoomgrand Downtown",
+    "slug": "thairoomgrand-downtown",
+    "address": "303 King St West",
+    "city": "Toronto",
+    "province": "ON",
+    "postal_code": "M5V 1J5",
+    "phone": "416 979 9799",
+    "email": "info@thairoomgrand.com",
+    "cuisine": "Thai",
+    "price_range": "$$",
+    "hours": {
+      "mon": [
+        "11:00",
+        "21:45"
+      ],
+      "tue": [
+        "11:00",
+        "21:45"
+      ],
+      "wed": [
+        "11:00",
+        "21:45"
+      ],
+      "thu": [
+        "11:00",
+        "21:45"
+      ],
+      "fri": [
+        "11:00",
+        "21:45"
+      ],
+      "sat": [
+        "11:00",
+        "21:45"
+      ],
+      "sun": [
+        "11:00",
+        "21:45"
+      ]
+    },
+    "hours_note": "Hours as published on thairoomgrand.com, which lists a single daily template rather than per-day hours; confirm holiday exceptions by phone.",
+    "timezone": "America/Toronto",
+    "menu_url": "https://thairoomgrand.com/menu/downtown",
+    "order_url": "https://thairoomgrand.com/order/downtown",
+    "reservation_url": "https://reserve.thairoomgrand.com/",
+    "private_events": true,
+    "private_events_url": "https://thairoomgrand.com/private-dining",
+    "gift_card_url": "https://order.toasttab.com/egiftcards/naguk-thairoomgrand-downtown",
+    "description": "Part of the thairoomgrand family (by Naguk Eatery Inc), serving authentic Thai cuisine in a warm, welcoming setting since 2010.",
+    "status": "open"
+  },
+  {
+    "brand": "thairoomgrand",
+    "name": "thairoomgrand Etobicoke",
+    "slug": "thairoomgrand-etobicoke",
+    "address": "5112 Dundas St West",
+    "city": "Etobicoke",
+    "province": "ON",
+    "postal_code": "M9A 1C2",
+    "phone": "416 234 1213",
+    "email": "info@thairoomgrand.com",
+    "cuisine": "Thai",
+    "price_range": "$$",
+    "hours": {
+      "mon": [
+        "11:00",
+        "22:00"
+      ],
+      "tue": [
+        "11:00",
+        "22:00"
+      ],
+      "wed": [
+        "11:00",
+        "22:00"
+      ],
+      "thu": [
+        "11:00",
+        "22:00"
+      ],
+      "fri": [
+        "11:00",
+        "22:00"
+      ],
+      "sat": [
+        "11:00",
+        "22:00"
+      ],
+      "sun": [
+        "11:00",
+        "22:00"
+      ]
+    },
+    "hours_note": "Hours as published on thairoomgrand.com, which lists a single daily template rather than per-day hours; confirm holiday exceptions by phone.",
+    "timezone": "America/Toronto",
+    "menu_url": "https://thairoomgrand.com/menu/etobicoke",
+    "order_url": "https://thairoomgrand.com/order/etobicoke",
+    "reservation_url": "https://reserve.thairoomgrand.com/",
+    "private_events": true,
+    "private_events_url": "https://thairoomgrand.com/private-dining",
+    "gift_card_url": "https://order.toasttab.com/egiftcards/naguk-thairoomgrand-etobicoke",
+    "description": "Part of the thairoomgrand family (by Naguk Eatery Inc), serving authentic Thai cuisine in a warm, welcoming setting since 2010.",
+    "status": "open"
+  },
+  {
+    "brand": "thairoomgrand",
+    "name": "thairoomgrand Midtown",
+    "slug": "thairoomgrand-midtown",
+    "address": "288 Eglinton Ave West",
+    "city": "Toronto",
+    "province": "ON",
+    "postal_code": "M4R 1B2",
+    "phone": "416 481 7000",
+    "email": "info@thairoomgrand.com",
+    "cuisine": "Thai",
+    "price_range": "$$",
+    "hours": {
+      "mon": [
+        "11:00",
+        "22:30"
+      ],
+      "tue": [
+        "11:00",
+        "22:30"
+      ],
+      "wed": [
+        "11:00",
+        "22:30"
+      ],
+      "thu": [
+        "11:00",
+        "22:30"
+      ],
+      "fri": [
+        "11:00",
+        "22:30"
+      ],
+      "sat": [
+        "11:00",
+        "22:30"
+      ],
+      "sun": [
+        "11:00",
+        "22:30"
+      ]
+    },
+    "hours_note": "Hours as published on thairoomgrand.com, which lists a single daily template rather than per-day hours; confirm holiday exceptions by phone.",
+    "timezone": "America/Toronto",
+    "menu_url": "https://thairoomgrand.com/menu/midtown",
+    "order_url": "https://thairoomgrand.com/order/midtown",
+    "reservation_url": "https://reserve.thairoomgrand.com/",
+    "private_events": true,
+    "private_events_url": "https://thairoomgrand.com/private-dining",
+    "gift_card_url": "https://order.toasttab.com/egiftcards/naguk-thairoomgrand-midtown",
+    "description": "Part of the thairoomgrand family (by Naguk Eatery Inc), serving authentic Thai cuisine in a warm, welcoming setting since 2010.",
+    "status": "open"
+  },
+  {
+    "brand": "thairoomgrand",
+    "name": "thairoomgrand Newmarket",
+    "slug": "thairoomgrand-newmarket",
+    "address": "Unit FM08A - 17600 Yonge St",
+    "city": "Newmarket",
+    "province": "ON",
+    "postal_code": "L3Y 4Z1",
+    "phone": "365 337 0221",
+    "email": "info@thairoomgrand.com",
+    "cuisine": "Thai",
+    "price_range": "$$",
+    "hours": {
+      "mon": [
+        "11:00",
+        "22:00"
+      ],
+      "tue": [
+        "11:00",
+        "22:00"
+      ],
+      "wed": [
+        "11:00",
+        "22:00"
+      ],
+      "thu": [
+        "11:00",
+        "22:00"
+      ],
+      "fri": [
+        "11:00",
+        "22:00"
+      ],
+      "sat": [
+        "11:00",
+        "22:00"
+      ],
+      "sun": [
+        "11:00",
+        "22:00"
+      ]
+    },
+    "hours_note": "Hours as published on thairoomgrand.com, which lists a single daily template rather than per-day hours; confirm holiday exceptions by phone.",
+    "timezone": "America/Toronto",
+    "menu_url": "https://thairoomgrand.com/menu/newmarket",
+    "order_url": "https://thairoomgrand.com/order/newmarket",
+    "reservation_url": "https://reserve.thairoomgrand.com/",
+    "private_events": true,
+    "private_events_url": "https://thairoomgrand.com/private-dining",
+    "gift_card_url": "https://order.toasttab.com/egiftcards/naguk-thairoomgrand-newmarket",
+    "description": "Part of the thairoomgrand family (by Naguk Eatery Inc), serving authentic Thai cuisine in a warm, welcoming setting since 2010.",
+    "status": "open"
+  },
+  {
+    "brand": "thairoomgrand",
+    "name": "thairoomgrand Oshawa",
+    "slug": "thairoomgrand-oshawa",
+    "address": "214 Ritson Rd N",
+    "city": "Oshawa",
+    "province": "ON",
+    "postal_code": "L1G 1Z7",
+    "phone": "905 728 0485",
+    "email": "info@thairoomgrand.com",
+    "cuisine": "Thai",
+    "price_range": "$$",
+    "hours": {
+      "mon": [
+        "11:00",
+        "22:00"
+      ],
+      "tue": [
+        "11:00",
+        "22:00"
+      ],
+      "wed": [
+        "11:00",
+        "22:00"
+      ],
+      "thu": [
+        "11:00",
+        "22:00"
+      ],
+      "fri": [
+        "11:00",
+        "22:00"
+      ],
+      "sat": [
+        "11:00",
+        "22:00"
+      ],
+      "sun": [
+        "11:00",
+        "22:00"
+      ]
+    },
+    "hours_note": "Hours as published on thairoomgrand.com, which lists a single daily template rather than per-day hours; confirm holiday exceptions by phone.",
+    "timezone": "America/Toronto",
+    "menu_url": "https://thairoomgrand.com/menu/oshawa",
+    "order_url": "https://thairoomgrand.com/order/oshawa",
+    "reservation_url": "https://reserve.thairoomgrand.com/",
+    "private_events": true,
+    "private_events_url": "https://thairoomgrand.com/private-dining",
+    "gift_card_url": "https://order.toasttab.com/egiftcards/naguk-thairoomgrand-oshawa",
+    "description": "Part of the thairoomgrand family (by Naguk Eatery Inc), serving authentic Thai cuisine in a warm, welcoming setting since 2010.",
+    "status": "open"
+  },
+  {
+    "brand": "thairoomgrand",
+    "name": "thairoomgrand Pickering",
+    "slug": "thairoomgrand-pickering",
+    "address": "E-1899 Brock Rd",
+    "city": "Pickering",
+    "province": "ON",
+    "postal_code": "L1V 1C5",
+    "phone": "905 556 1663",
+    "email": "info@thairoomgrand.com",
+    "cuisine": "Thai",
+    "price_range": "$$",
+    "hours": {
+      "mon": [
+        "11:00",
+        "23:00"
+      ],
+      "tue": [
+        "11:00",
+        "23:00"
+      ],
+      "wed": [
+        "11:00",
+        "23:00"
+      ],
+      "thu": [
+        "11:00",
+        "23:00"
+      ],
+      "fri": [
+        "11:00",
+        "23:00"
+      ],
+      "sat": [
+        "11:00",
+        "23:00"
+      ],
+      "sun": [
+        "11:00",
+        "23:00"
+      ]
+    },
+    "hours_note": "Hours as published on thairoomgrand.com, which lists a single daily template rather than per-day hours; confirm holiday exceptions by phone.",
+    "timezone": "America/Toronto",
+    "menu_url": "https://thairoomgrand.com/menu/pickering",
+    "order_url": "https://thairoomgrand.com/order/pickering",
+    "reservation_url": "https://reserve.thairoomgrand.com/",
+    "private_events": true,
+    "private_events_url": "https://thairoomgrand.com/private-dining",
+    "gift_card_url": "https://order.toasttab.com/egiftcards/naguk-thairoomgrand-pickering",
+    "description": "Part of the thairoomgrand family (by Naguk Eatery Inc), serving authentic Thai cuisine in a warm, welcoming setting since 2010.",
+    "status": "open"
+  },
+  {
+    "brand": "thairoomgrand",
+    "name": "thairoomgrand South Common",
+    "slug": "thairoomgrand-southcommon",
+    "address": "2116 Burnhamthorpe Road West",
+    "city": "Mississauga",
+    "province": "ON",
+    "postal_code": "L5L 5Z5",
+    "phone": "905 449 2116",
+    "email": "info@thairoomgrand.com",
+    "cuisine": "Thai",
+    "price_range": "$$",
+    "hours": {
+      "mon": [
+        "11:00",
+        "23:00"
+      ],
+      "tue": [
+        "11:00",
+        "23:00"
+      ],
+      "wed": [
+        "11:00",
+        "23:00"
+      ],
+      "thu": [
+        "11:00",
+        "23:00"
+      ],
+      "fri": [
+        "11:00",
+        "23:00"
+      ],
+      "sat": [
+        "11:00",
+        "23:00"
+      ],
+      "sun": [
+        "11:00",
+        "23:00"
+      ]
+    },
+    "hours_note": "Hours as published on thairoomgrand.com, which lists a single daily template rather than per-day hours; confirm holiday exceptions by phone.",
+    "timezone": "America/Toronto",
+    "menu_url": "https://thairoomgrand.com/menu/southcomon",
+    "order_url": "https://thairoomgrand.com/order/southcomon",
+    "reservation_url": "https://reserve.thairoomgrand.com/",
+    "private_events": true,
+    "private_events_url": "https://thairoomgrand.com/private-dining",
+    "gift_card_url": "https://order.toasttab.com/egiftcards/naguk-thairoomgrand-southcomon",
+    "description": "Part of the thairoomgrand family (by Naguk Eatery Inc), serving authentic Thai cuisine in a warm, welcoming setting since 2010.",
+    "status": "open"
+  },
+  {
+    "brand": "thairoomgrand",
+    "name": "thairoomgrand Square One",
+    "slug": "thairoomgrand-squareone",
+    "address": "4096 Confederation Parkway",
+    "city": "Mississauga",
+    "province": "ON",
+    "postal_code": "L5B 0G4",
+    "phone": "905 232 8424",
+    "email": "info@thairoomgrand.com",
+    "cuisine": "Thai",
+    "price_range": "$$",
+    "hours": {
+      "mon": [
+        "11:00",
+        "23:00"
+      ],
+      "tue": [
+        "11:00",
+        "23:00"
+      ],
+      "wed": [
+        "11:00",
+        "23:00"
+      ],
+      "thu": [
+        "11:00",
+        "23:00"
+      ],
+      "fri": [
+        "11:00",
+        "23:00"
+      ],
+      "sat": [
+        "11:00",
+        "23:00"
+      ],
+      "sun": [
+        "11:00",
+        "23:00"
+      ]
+    },
+    "hours_note": "Hours as published on thairoomgrand.com, which lists a single daily template rather than per-day hours; confirm holiday exceptions by phone.",
+    "timezone": "America/Toronto",
+    "menu_url": "https://thairoomgrand.com/menu/squareone",
+    "order_url": "https://thairoomgrand.com/order/squareone",
+    "reservation_url": "https://reserve.thairoomgrand.com/",
+    "private_events": true,
+    "private_events_url": "https://thairoomgrand.com/private-dining",
+    "gift_card_url": "https://order.toasttab.com/egiftcards/naguk-thairoomgrand-squareone",
+    "description": "Part of the thairoomgrand family (by Naguk Eatery Inc), serving authentic Thai cuisine in a warm, welcoming setting since 2010.",
+    "status": "open"
+  },
+  {
+    "brand": "thairoomgrand",
+    "name": "thairoomgrand Steeles",
+    "slug": "thairoomgrand-steeles",
+    "address": "1881 Steeles Ave West Unit 1B",
+    "city": "Toronto",
+    "province": "ON",
+    "postal_code": "M3H 5Y4",
+    "phone": "416 514 0100",
+    "email": "info@thairoomgrand.com",
+    "cuisine": "Thai",
+    "price_range": "$$",
+    "hours": {
+      "mon": [
+        "11:00",
+        "21:45"
+      ],
+      "tue": [
+        "11:00",
+        "21:45"
+      ],
+      "wed": [
+        "11:00",
+        "21:45"
+      ],
+      "thu": [
+        "11:00",
+        "21:45"
+      ],
+      "fri": [
+        "11:00",
+        "21:45"
+      ],
+      "sat": [
+        "11:00",
+        "21:45"
+      ],
+      "sun": [
+        "11:00",
+        "21:45"
+      ]
+    },
+    "hours_note": "Hours as published on thairoomgrand.com, which lists a single daily template rather than per-day hours; confirm holiday exceptions by phone.",
+    "timezone": "America/Toronto",
+    "menu_url": "https://thairoomgrand.com/menu/steeles",
+    "order_url": "https://thairoomgrand.com/order/steeles",
+    "reservation_url": "https://reserve.thairoomgrand.com/",
+    "private_events": true,
+    "private_events_url": "https://thairoomgrand.com/private-dining",
+    "gift_card_url": "https://order.toasttab.com/egiftcards/naguk-thairoomgrand-steeles",
+    "description": "Part of the thairoomgrand family (by Naguk Eatery Inc), serving authentic Thai cuisine in a warm, welcoming setting since 2010.",
+    "status": "open"
+  },
+  {
+    "brand": "thairoomgrand",
+    "name": "thairoomgrand YorkMills",
+    "slug": "thairoomgrand-yorkmills",
+    "address": "861 Yorkmills Road Unit 9",
+    "city": "North York",
+    "province": "ON",
+    "postal_code": "M3B 1Y2",
+    "phone": "416 444 7223",
+    "email": "info@thairoomgrand.com",
+    "cuisine": "Thai",
+    "price_range": "$$",
+    "hours": {
+      "mon": [
+        "11:00",
+        "23:00"
+      ],
+      "tue": [
+        "11:00",
+        "23:00"
+      ],
+      "wed": [
+        "11:00",
+        "23:00"
+      ],
+      "thu": [
+        "11:00",
+        "23:00"
+      ],
+      "fri": [
+        "11:00",
+        "23:00"
+      ],
+      "sat": [
+        "11:00",
+        "23:00"
+      ],
+      "sun": [
+        "11:00",
+        "23:00"
+      ]
+    },
+    "hours_note": "Hours as published on thairoomgrand.com, which lists a single daily template rather than per-day hours; confirm holiday exceptions by phone.",
+    "timezone": "America/Toronto",
+    "menu_url": "https://thairoomgrand.com/menu/yorkmills",
+    "order_url": "https://thairoomgrand.com/order/yorkmills",
+    "reservation_url": "https://reserve.thairoomgrand.com/",
+    "private_events": true,
+    "private_events_url": "https://thairoomgrand.com/private-dining",
+    "gift_card_url": "https://order.toasttab.com/egiftcards/naguk-thairoomgrand-yorkmills",
+    "description": "Part of the thairoomgrand family (by Naguk Eatery Inc), serving authentic Thai cuisine in a warm, welcoming setting since 2010.",
+    "status": "open"
+  }
+]

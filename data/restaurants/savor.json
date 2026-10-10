@@ -1,0 +1,55 @@
+{
+  "brand": "Savor",
+  "name": "Savor",
+  "slug": "savor",
+  "address": "1226 St Clair Ave W.",
+  "city": "Toronto",
+  "province": "ON",
+  "postal_code": "M6E 1B4",
+  "phone": "416-410-0303",
+  "email": "savorthaito@gmail.com",
+  "cuisine": "Molecular Thai fine dining",
+  "price_range": "$$$$",
+  "hours": {
+    "mon": [
+      "17:30",
+      "22:00"
+    ],
+    "tue": [
+      "closed",
+      "closed"
+    ],
+    "wed": [
+      "17:30",
+      "22:00"
+    ],
+    "thu": [
+      "17:30",
+      "22:00"
+    ],
+    "fri": [
+      "17:30",
+      "22:00"
+    ],
+    "sat": [
+      "17:30",
+      "22:00"
+    ],
+    "sun": [
+      "17:30",
+      "22:00"
+    ]
+  },
+  "hours_note": "Closed Tuesdays.",
+  "timezone": "America/Toronto",
+  "menu_url": "https://www.savortoronto.ca/menu",
+  "order_url": "",
+  "reservation_url": "https://www.exploretock.com/savor-toronto",
+  "private_events": true,
+  "private_events_url": "https://www.savortoronto.ca/contact-us",
+  "gift_card_url": "",
+  "description": "Fine-dining molecular Thai gastronomy by Chef Art (Iron Chef Thailand; also leads Le Lert). Featured in Canada's 100 Best Restaurants. Located next door to Solena Brunch & Bar (1224 St Clair Ave W), same block. Private dining inquiries handled via a contact form.",
+  "status": "open",
+  "latitude": 43.67776,
+  "longitude": -79.44501
+}

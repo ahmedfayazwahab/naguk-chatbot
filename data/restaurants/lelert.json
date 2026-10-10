@@ -1,0 +1,55 @@
+{
+  "brand": "Le Lert",
+  "name": "Le Lert",
+  "slug": "lelert",
+  "address": "27 Carlton St.",
+  "city": "Toronto",
+  "province": "ON",
+  "postal_code": "M5B 1L2",
+  "phone": "+1 (437) 433-4359",
+  "email": "contact@lelert.ca",
+  "cuisine": "Modern Thai",
+  "price_range": "$$$",
+  "hours": {
+    "mon": [
+      "10:00",
+      "22:00"
+    ],
+    "tue": [
+      "10:00",
+      "22:00"
+    ],
+    "wed": [
+      "10:00",
+      "22:00"
+    ],
+    "thu": [
+      "10:00",
+      "22:00"
+    ],
+    "fri": [
+      "10:00",
+      "23:00"
+    ],
+    "sat": [
+      "09:00",
+      "23:00"
+    ],
+    "sun": [
+      "09:00",
+      "22:00"
+    ]
+  },
+  "hours_note": "",
+  "timezone": "America/Toronto",
+  "menu_url": "https://lelert.ca/menu.html",
+  "order_url": "https://www.ubereats.com/store/le-lert-thai-restaurant/jRTAG8D5UZOUDBoiTxTGUA",
+  "reservation_url": "https://www.opentable.ca/restaurant/profile/1373506/reserve?rid=1373506&restref=1373506",
+  "private_events": true,
+  "private_events_url": "https://lelert.ca/contact.html",
+  "gift_card_url": "https://rateradarapp.com/marketplace/gift-card/le-lert-thai-restaurant-10-00-10000-00-cad",
+  "description": "Modern Thai restaurant near College Station serving brunch, dinner, and handcrafted cocktails. Menu by Chef Art and Chef Tempo (Chef Art also leads Savor Thai). Private dining available for celebrations and group events.",
+  "status": "open",
+  "latitude": 43.6612888,
+  "longitude": -79.3813657
+}

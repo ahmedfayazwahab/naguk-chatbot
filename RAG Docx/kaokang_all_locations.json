@@ -1,0 +1,55 @@
+[
+  {
+    "brand": "Kao Kang",
+    "name": "Kao Kang",
+    "slug": "kaokang",
+    "address": "Wellington Market, 486 Front St W",
+    "city": "Toronto",
+    "province": "ON",
+    "postal_code": "M5V 0V2",
+    "phone": "+1 416 205 9999",
+    "email": "kaokangto@gmail.com",
+    "cuisine": "Thai (Southern Thai)",
+    "price_range": "$",
+    "hours": {
+      "mon": [
+        "11:00",
+        "21:00"
+      ],
+      "tue": [
+        "11:00",
+        "21:00"
+      ],
+      "wed": [
+        "11:00",
+        "21:00"
+      ],
+      "thu": [
+        "11:00",
+        "21:00"
+      ],
+      "fri": [
+        "11:00",
+        "21:00"
+      ],
+      "sat": [
+        "11:00",
+        "21:00"
+      ],
+      "sun": [
+        "11:00",
+        "21:00"
+      ]
+    },
+    "hours_note": "",
+    "timezone": "America/Toronto",
+    "menu_url": "https://kaokang.ca/menu.html",
+    "order_url": "https://order.toasttab.com/online/kaokang",
+    "reservation_url": "",
+    "private_events": false,
+    "private_events_url": "",
+    "gift_card_url": "https://order.toasttab.com/egiftcards/kaokang",
+    "description": "A fast-casual Southern Thai counter inside Wellington Market food hall, by the team behind Michelin-recognized Koh Lipe. Grab-and-go concept \u2014 no table reservations offered (the site's own \"Book a Table\" link is broken/dead). Catering menu: https://kaokang.ca/cateringMenu.html. Two gift card options: a Toast gift card specific to Kao Kang (listed above), and The Well Gift Card (https://thewelltoronto.com/shop/the-well-gift-card/) usable across the whole Wellington Market food hall. A group-wide \"Naguk Gift Card\" redeemable across all Naguk-associated restaurants is mentioned on the site as coming soon but is not yet live.",
+    "status": "open"
+  }
+]

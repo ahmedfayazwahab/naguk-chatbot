@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Naguk Group Concierge</title>
+<style>
+  html { background: #fff; color-scheme: light; }
+  body {
+    font-family: system-ui, sans-serif; max-width: 560px; margin: 40px auto; padding: 0 16px;
+    background: #fff; color: #111;
+  }
+  h2 { color: #111; }
+  #log {
+    background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 12px;
+    height: 420px; overflow-y: auto; margin-bottom: 12px;
+  }
+  .msg { margin: 8px 0; line-height: 1.4; white-space: pre-wrap; }
+  .user { text-align: right; color: #0a5; }
+  .bot { text-align: left; color: #222; }
+  .bot a { color: #0a5; text-decoration: underline; }
+  .typing { color: #888; font-style: italic; }
+  .typing .dots span {
+    animation: blink 1.4s infinite both;
+    display: inline-block;
+  }
+  .typing .dots span:nth-child(2) { animation-delay: 0.2s; }
+  .typing .dots span:nth-child(3) { animation-delay: 0.4s; }
+  @keyframes blink {
+    0%, 80%, 100% { opacity: 0.2; }
+    40% { opacity: 1; }
+  }
+  form { display: flex; gap: 8px; }
+  input {
+    flex: 1; padding: 10px; border: 1px solid #ccc; border-radius: 6px;
+    background: #fff; color: #111;
+  }
+  input::placeholder { color: #888; }
+  button { padding: 10px 16px; border: none; border-radius: 6px; background: #111; color: #fff; cursor: pointer; }
+  button:disabled { opacity: 0.5; cursor: default; }
+  #mic-btn { padding: 10px 14px; background: #f3f3f3; color: #333; border: 1px solid #ccc; }
+  #mic-btn.listening { background: #d33; color: #fff; border-color: #d33; }
+  .suggestions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+  .suggestion {
+    background: #f3f3f3; color: #333; border: 1px solid #ddd; border-radius: 999px;
+    padding: 6px 14px; font-size: 13px;
+  }
+  .suggestion:hover { background: #e8e8e8; }
+  .suggestion:disabled { opacity: 0.5; cursor: default; }
+</style>
+</head>
+<body>
+  <h2>Ask about Naguk Group restaurants</h2>
+  <div id="log"></div>
+  <form id="form">
+    <input id="input" placeholder="e.g. Find restaurants near me" autocomplete="off" required>
+    <button type="button" id="mic-btn" title="Speak your question">🎤 Speak</button>
+    <button type="submit">Send</button>
+  </form>
+  <div class="suggestions">
+    <button type="button" class="suggestion">Restaurants near me</button>
+    <button type="button" class="suggestion">Where can I take my kids for dinner?</button>
+    <button type="button" class="suggestion">Best place for a date night?</button>
+    <button type="button" id="share-location" class="suggestion">📍 Share my location</button>
+  </div>
+
+<script>
+  const API_URL = "https://63sxrnpv00.execute-api.us-east-1.amazonaws.com";
+  const log = document.getElementById("log");
+  const form = document.getElementById("form");
+  const input = document.getElementById("input");
+
+  // Full history (not just the latest message) is sent on every request, so the
+  // conversation is stateful from the customer's point of view even though the
+  // backend itself keeps no session store — see lambda_handler.py's run_agent().
+  const history = [];
+
+  function escapeHtml(str) {
+    return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  }
+
+  function anchor(url, label) {
+    return `<a href="${url}" target="_blank" rel="noopener noreferrer">${label}</a>`;
+  }
+
+  // Minimal, safe markdown: escape everything first, then allow only the
+  // patterns the bot actually uses (bold, [text](url) links, and bare URLs)
+  // to become real tags — never trust raw text as HTML, since it ultimately
+  // traces back to model output. Markdown links are swapped for placeholders
+  // before bare URLs are auto-linked, so a URL already inside a markdown link
+  // is never wrapped in a second anchor.
+  function renderMarkdown(text) {
+    let html = escapeHtml(text);
+    html = html.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+
+    const links = [];
+    html = html.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, (_, label, url) => {
+      links.push(anchor(url, label));
+      return `${links.length - 1}`;
+    });
+
+    html = html.replace(/https?:\/\/[^\s<>"]+/g, (match) => {
+      const trailing = match.match(/[.,;:!?)]+$/);
+      const url = trailing ? match.slice(0, -trailing[0].length) : match;
+      return anchor(url, url) + (trailing ? trailing[0] : "");
+    });
+
+    return html.replace(/(\d+)/g, (_, i) => links[Number(i)]);
+  }
+
+  function addMessage(text, cls) {
+    const div = document.createElement("div");
+    div.className = `msg ${cls}`;
+    if (cls === "bot") {
+      div.innerHTML = renderMarkdown(text);
+    } else {
+      div.textContent = text;
+    }
+    log.appendChild(div);
+    log.scrollTop = log.scrollHeight;
+    return div;
+  }
+
+  // Broader questions (e.g. "are all locations open until midnight on Fridays")
+  // can take several seconds since the agent may call tools more than once
+  // before answering — this fills that wait so it doesn't look stalled.
+  function showTyping() {
+    const div = document.createElement("div");
+    div.className = "msg bot typing";
+    div.innerHTML = 'Typing<span class="dots"><span>.</span><span>.</span><span>.</span></span>';
+    log.appendChild(div);
+    log.scrollTop = log.scrollHeight;
+    return div;
+  }
+
+  addMessage(
+    "\u{1F44B} Hi! I'm the concierge for Naguk Group restaurants. Ask me about hours, " +
+    "menus, reservations, delivery, or private events for any of our locations.",
+    "bot"
+  );
+
+  const allButtons = () => document.querySelectorAll("button");
+
+  // Once shared, the customer's location is re-sent as context on every
+  // subsequent message for the rest of this session — not just left for the
+  // model to notice buried a few turns back in history, which proved
+  // unreliable for recommendations that did not explicitly ask for "nearest."
+  let sharedLocation = null; // { latitude, longitude }
+
+  function withLocationContext(text) {
+    if (!sharedLocation) return text;
+    return `${text}\n\n(Customer's shared location for this session: latitude ${sharedLocation.latitude}, longitude ${sharedLocation.longitude}. Use this for any restaurant recommendation, not only explicit "nearest" requests, and never read the coordinates back to the customer.)`;
+  }
+
+  // displayText lets a message show something clean in the chat bubble (e.g.
+  // "Shared my location") while the backend still receives the full text with
+  // location context appended — the two are allowed to differ.
+  async function sendMessage(message, displayText) {
+    if (!message) return;
+    addMessage(displayText || message, "user");
+    history.push({ role: "user", content: withLocationContext(message) });
+    input.value = "";
+    allButtons().forEach((b) => (b.disabled = true));
+    const typingEl = showTyping();
+
+    try {
+      const res = await fetch(API_URL, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ messages: history }),
+      });
+      const data = await res.json();
+      typingEl.remove();
+      if (res.ok) {
+        addMessage(data.reply, "bot");
+        history.push({ role: "assistant", content: data.reply });
+      } else {
+        addMessage(data.error || "Something went wrong.", "bot");
+        history.pop(); // don't keep an unanswered message in history
+      }
+    } catch (err) {
+      typingEl.remove();
+      addMessage("Network error, please try again.", "bot");
+      history.pop();
+    } finally {
+      allButtons().forEach((b) => (b.disabled = false));
+    }
+  }
+
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    sendMessage(input.value.trim());
+  });
+
+  document.querySelectorAll(".suggestion:not(#share-location)").forEach((btn) => {
+    btn.addEventListener("click", () => sendMessage(btn.textContent));
+  });
+
+  document.getElementById("share-location").addEventListener("click", () => {
+    if (!navigator.geolocation) {
+      addMessage("Your browser does not support sharing your location. Please type your postal or zip code instead.", "bot");
+      return;
+    }
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        sharedLocation = { latitude: position.coords.latitude, longitude: position.coords.longitude };
+        sendMessage("Please find restaurants near me using my shared location.", "\u{1F4CD} Shared my location");
+      },
+      () => {
+        addMessage("I could not access your location. Please type your postal or zip code instead.", "bot");
+      }
+    );
+  });
+
+  // Dictation works in every browser via two paths. Chrome/Edge get the free,
+  // instant, client side Web Speech API. Firefox/Safari (which never
+  // implemented that API) fall back to MediaRecorder — broadly supported,
+  // unlike SpeechRecognition — uploading the clip to the /transcribe endpoint
+  // for Whisper transcription (small usage based cost, only when this
+  // fallback path actually runs). Both paths share the same explicit click to
+  // start, click again to stop and submit interaction, rather than relying on
+  // a browser's own silence detection, which can cut a question off early.
+  const micBtn = document.getElementById("mic-btn");
+  const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+  const canRecordAudio = !!(navigator.mediaDevices && navigator.mediaDevices.getUserMedia && window.MediaRecorder);
+
+  function setMicIdle() {
+    micBtn.classList.remove("listening");
+    micBtn.textContent = "\u{1F3A4} Speak";
+  }
+
+  function setMicListening() {
+    micBtn.classList.add("listening");
+    micBtn.textContent = "\u{1F534} Listening... (click to stop)";
+  }
+
+  function setMicBusy(label) {
+    micBtn.classList.remove("listening");
+    micBtn.textContent = label;
+  }
+
+  if (SpeechRecognition) {
+    const recognition = new SpeechRecognition();
+    recognition.lang = "en-US";
+    recognition.interimResults = true;
+    recognition.continuous = true; // don't auto-stop on a pause; only the click does
+
+    let finalTranscript = "";
+
+    micBtn.addEventListener("click", () => {
+      if (micBtn.classList.contains("listening")) {
+        recognition.stop(); // submission happens in the "end" handler below
+      } else {
+        finalTranscript = "";
+        recognition.start();
+      }
+    });
+
+    recognition.addEventListener("start", setMicListening);
+
+    recognition.addEventListener("end", () => {
+      setMicIdle();
+      if (finalTranscript.trim()) sendMessage(finalTranscript.trim());
+    });
+
+    recognition.addEventListener("result", (event) => {
+      let interim = "";
+      for (const result of event.results) {
+        if (result.isFinal) finalTranscript += result[0].transcript;
+        else interim += result[0].transcript;
+      }
+      input.value = finalTranscript + interim;
+    });
+
+    recognition.addEventListener("error", () => {
+      addMessage("I could not hear you clearly. Please try again or type your question.", "bot");
+    });
+  } else if (canRecordAudio) {
+    let mediaRecorder = null;
+    let chunks = [];
+
+    function blobToBase64(blob) {
+      return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onloadend = () => resolve(reader.result.split(",")[1]);
+        reader.onerror = reject;
+        reader.readAsDataURL(blob);
+      });
+    }
+
+    micBtn.addEventListener("click", async () => {
+      if (mediaRecorder && mediaRecorder.state === "recording") {
+        mediaRecorder.stop(); // transcription + submission happens in onstop below
+        return;
+      }
+      try {
+        const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+        chunks = [];
+        mediaRecorder = new MediaRecorder(stream);
+        mediaRecorder.ondataavailable = (e) => chunks.push(e.data);
+        mediaRecorder.onstop = async () => {
+          stream.getTracks().forEach((track) => track.stop()); // release the mic
+          setMicBusy("⏳ Transcribing...");
+          try {
+            const blob = new Blob(chunks, { type: mediaRecorder.mimeType || "audio/webm" });
+            const audioBase64 = await blobToBase64(blob);
+            const res = await fetch(`${API_URL}/transcribe`, {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ audio: audioBase64, mimeType: blob.type }),
+            });
+            const data = await res.json();
+            setMicIdle();
+            if (res.ok && data.text && data.text.trim()) {
+              sendMessage(data.text.trim());
+            } else {
+              addMessage(data.error || "I could not hear you clearly. Please try again or type your question.", "bot");
+            }
+          } catch (err) {
+            setMicIdle();
+            addMessage("I could not hear you clearly. Please try again or type your question.", "bot");
+          }
+        };
+        mediaRecorder.start();
+        setMicListening();
+      } catch (err) {
+        addMessage("I could not access your microphone. Please check permissions or type your question instead.", "bot");
+      }
+    });
+  } else {
+    // No speech API and no MediaRecorder/getUserMedia at all — a genuinely
+    // old or locked down browser. Spelled out in the label itself, not just a
+    // hover tooltip, so a disabled button reads as "unavailable here" rather
+    // than "broken."
+    micBtn.disabled = true;
+    micBtn.textContent = "\u{1F3A4} Unsupported here";
+    micBtn.title = "This browser does not support voice input";
+  }
+</script>
+</body>
+</html>

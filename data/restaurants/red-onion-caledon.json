@@ -1,0 +1,55 @@
+{
+  "brand": "Red Onion",
+  "name": "Red Onion Family Restaurant",
+  "slug": "red-onion-caledon",
+  "address": "14010 Hurontario Street",
+  "city": "Caledon",
+  "province": "ON",
+  "postal_code": "L7C 2C1",
+  "phone": "(905) 838-0001",
+  "email": "redonion14010@gmail.com",
+  "cuisine": "Globally inspired family restaurant",
+  "price_range": "$$",
+  "hours": {
+    "mon": [
+      "09:00",
+      "19:00"
+    ],
+    "tue": [
+      "09:00",
+      "19:00"
+    ],
+    "wed": [
+      "09:00",
+      "19:00"
+    ],
+    "thu": [
+      "09:00",
+      "19:00"
+    ],
+    "fri": [
+      "09:00",
+      "19:00"
+    ],
+    "sat": [
+      "09:00",
+      "19:00"
+    ],
+    "sun": [
+      "09:00",
+      "19:00"
+    ]
+  },
+  "hours_note": "",
+  "timezone": "America/Toronto",
+  "menu_url": "https://redonioncaledon.com/menu",
+  "order_url": "",
+  "reservation_url": "",
+  "private_events": false,
+  "private_events_url": "",
+  "gift_card_url": "",
+  "description": "Red Onion Family Restaurant in Caledon serves globally inspired dishes (not specifically Thai). No online ordering, reservation system, gift cards, or private-events feature were found on the site.",
+  "status": "open",
+  "latitude": 43.773396,
+  "longitude": -79.879035
+}

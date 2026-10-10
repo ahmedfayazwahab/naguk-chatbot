@@ -1,0 +1,55 @@
+{
+  "brand": "Gabby's",
+  "name": "Gabby's The Junction (Dundas West)",
+  "slug": "gabbys-the-junction-dundas-west",
+  "address": "3026 Dundas St. W",
+  "city": "Toronto",
+  "province": "ON",
+  "postal_code": "M6P 1Z2",
+  "phone": "(416) 766-3026",
+  "email": "",
+  "cuisine": "Sports Bar & Grill",
+  "price_range": "$$",
+  "hours": {
+    "mon": [
+      "11:00",
+      "02:00"
+    ],
+    "tue": [
+      "11:00",
+      "02:00"
+    ],
+    "wed": [
+      "11:00",
+      "02:00"
+    ],
+    "thu": [
+      "11:00",
+      "02:00"
+    ],
+    "fri": [
+      "11:00",
+      "02:00"
+    ],
+    "sat": [
+      "09:00",
+      "02:00"
+    ],
+    "sun": [
+      "09:00",
+      "02:00"
+    ]
+  },
+  "hours_note": "",
+  "timezone": "America/Toronto",
+  "menu_url": "https://gabbys.ca/locations/the-junction/menu",
+  "order_url": "https://www.order.store/ca/store/gabbys-on-dundas-st/M5p4GETDQba5IQbU9KKcAQ",
+  "reservation_url": "",
+  "private_events": true,
+  "private_events_url": "https://gabbys.ca/book-an-event",
+  "gift_card_url": "",
+  "description": "Part of Gabby's Kitchen + Bar, a family-owned GTA sports bar and casual restaurant chain since 1989, known for award-winning wings, hand-battered fish & chips, and made-to-order chicken tenders. This location is listed as accepting reservations, but the site's online booking link is currently broken (redirects to the homepage) \u2014 call ahead to reserve. Also hosts weekly karaoke (Fri) and trivia (Thu) nights.",
+  "status": "open",
+  "latitude": 43.6656049,
+  "longitude": -79.4700384
+}

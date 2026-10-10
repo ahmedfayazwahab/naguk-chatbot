@@ -1,0 +1,32 @@
+{
+  "brand": "",
+  "name": "",
+  "slug": "",
+  "address": "",
+  "city": "",
+  "province": "",
+  "postal_code": "",
+  "phone": "",
+  "email": "",
+  "cuisine": "",
+  "price_range": "",
+  "hours": {
+    "mon": ["", ""],
+    "tue": ["", ""],
+    "wed": ["", ""],
+    "thu": ["", ""],
+    "fri": ["", ""],
+    "sat": ["", ""],
+    "sun": ["", ""]
+  },
+  "hours_note": "",
+  "timezone": "America/Toronto",
+  "menu_url": "",
+  "order_url": "",
+  "reservation_url": "",
+  "private_events": false,
+  "private_events_url": "",
+  "gift_card_url": "",
+  "description": "",
+  "status": "open"
+}

@@ -1,0 +1,320 @@
+[
+  {
+    "brand": "Gabby's",
+    "name": "Gabby's Brock Road Pickering",
+    "slug": "gabbys-brock-road-pickering",
+    "address": "1899 Brock Rd",
+    "city": "Pickering",
+    "province": "ON",
+    "postal_code": "L1V 4H7",
+    "phone": "(905) 556-1662",
+    "email": "",
+    "cuisine": "Sports Bar & Grill",
+    "price_range": "$$",
+    "hours": {
+      "mon": [
+        "11:00",
+        "02:00"
+      ],
+      "tue": [
+        "11:00",
+        "02:00"
+      ],
+      "wed": [
+        "11:00",
+        "02:00"
+      ],
+      "thu": [
+        "11:00",
+        "02:00"
+      ],
+      "fri": [
+        "11:00",
+        "02:00"
+      ],
+      "sat": [
+        "11:00",
+        "02:00"
+      ],
+      "sun": [
+        "11:00",
+        "02:00"
+      ]
+    },
+    "hours_note": "",
+    "timezone": "America/Toronto",
+    "menu_url": "https://gabbys.ca/locations/brock-road-pickering/menu",
+    "order_url": "https://www.order.store/ca/store/gabbys-pickering/xPG3zPegWUK-3kEPP18rfg",
+    "reservation_url": "https://gabbyspickering.ca",
+    "private_events": true,
+    "private_events_url": "https://gabbys.ca/book-an-event",
+    "gift_card_url": "",
+    "description": "Part of Gabby's Kitchen + Bar, a family-owned GTA sports bar and casual restaurant chain since 1989, known for award-winning wings, hand-battered fish & chips, and made-to-order chicken tenders.",
+    "status": "open"
+  },
+  {
+    "brand": "Gabby's",
+    "name": "Gabby's Mississauga (Square One)",
+    "slug": "gabbys-mississauga-sq1",
+    "address": "4096 Confederation Pkwy",
+    "city": "Mississauga",
+    "province": "ON",
+    "postal_code": "L5B 0G4",
+    "phone": "(905) 232-8955",
+    "email": "",
+    "cuisine": "Sports Bar & Grill",
+    "price_range": "$$",
+    "hours": {
+      "mon": [
+        "11:00",
+        "02:00"
+      ],
+      "tue": [
+        "11:00",
+        "02:00"
+      ],
+      "wed": [
+        "11:00",
+        "02:00"
+      ],
+      "thu": [
+        "11:00",
+        "02:00"
+      ],
+      "fri": [
+        "11:00",
+        "02:00"
+      ],
+      "sat": [
+        "09:00",
+        "02:00"
+      ],
+      "sun": [
+        "09:00",
+        "02:00"
+      ]
+    },
+    "hours_note": "",
+    "timezone": "America/Toronto",
+    "menu_url": "https://gabbys.ca/locations/mississauga/menu",
+    "order_url": "https://www.order.store/ca/store/gabbys-bar-and-grill-mississauga/u-a_voLRWZOHpn-0_rNz1w",
+    "reservation_url": "",
+    "private_events": true,
+    "private_events_url": "https://gabbys.ca/book-an-event",
+    "gift_card_url": "",
+    "description": "Part of Gabby's Kitchen + Bar, a family-owned GTA sports bar and casual restaurant chain since 1989, known for award-winning wings, hand-battered fish & chips, and made-to-order chicken tenders. Walk-in only at this location \u2014 online reservations are not offered.",
+    "status": "open"
+  },
+  {
+    "brand": "Gabby's",
+    "name": "Gabby's Parkway Mall Scarborough",
+    "slug": "gabbys-parkway-mall-scarborough",
+    "address": "85 Ellesmere Road",
+    "city": "Toronto",
+    "province": "ON",
+    "postal_code": "M1R 4B9",
+    "phone": "(416) 792-3111",
+    "email": "",
+    "cuisine": "Sports Bar & Grill",
+    "price_range": "$$",
+    "hours": {
+      "mon": [
+        "08:00",
+        "02:00"
+      ],
+      "tue": [
+        "08:00",
+        "02:00"
+      ],
+      "wed": [
+        "08:00",
+        "02:00"
+      ],
+      "thu": [
+        "08:00",
+        "02:00"
+      ],
+      "fri": [
+        "08:00",
+        "02:00"
+      ],
+      "sat": [
+        "08:00",
+        "02:00"
+      ],
+      "sun": [
+        "08:00",
+        "02:00"
+      ]
+    },
+    "hours_note": "",
+    "timezone": "America/Toronto",
+    "menu_url": "https://gabbys.ca/locations/parkway-mall-scarborough/menu",
+    "order_url": "https://www.order.store/ca/store/gabbys-parkway-mall/mSvv-H_MRvSKC_wu4G-jSA",
+    "reservation_url": "",
+    "private_events": true,
+    "private_events_url": "https://gabbys.ca/book-an-event",
+    "gift_card_url": "",
+    "description": "Part of Gabby's Kitchen + Bar, a family-owned GTA sports bar and casual restaurant chain since 1989, known for award-winning wings, hand-battered fish & chips, and made-to-order chicken tenders. This location is listed as accepting reservations, but the site's online booking link is currently broken (redirects to the homepage) \u2014 call ahead to reserve.",
+    "status": "open"
+  },
+  {
+    "brand": "Gabby's",
+    "name": "Gabby's Ritson Road Oshawa",
+    "slug": "gabbys-ritson-road-oshawa",
+    "address": "214 Ritson Rd N",
+    "city": "Oshawa",
+    "province": "ON",
+    "postal_code": "L1G 1Z7",
+    "phone": "(905) 438-0485",
+    "email": "",
+    "cuisine": "Sports Bar & Grill",
+    "price_range": "$$",
+    "hours": {
+      "mon": [
+        "11:00",
+        "00:00"
+      ],
+      "tue": [
+        "11:00",
+        "00:00"
+      ],
+      "wed": [
+        "11:00",
+        "00:00"
+      ],
+      "thu": [
+        "11:00",
+        "00:00"
+      ],
+      "fri": [
+        "11:00",
+        "00:00"
+      ],
+      "sat": [
+        "11:00",
+        "00:00"
+      ],
+      "sun": [
+        "11:00",
+        "00:00"
+      ]
+    },
+    "hours_note": "",
+    "timezone": "America/Toronto",
+    "menu_url": "https://gabbys.ca/locations/ritson-road-oshawa/menu",
+    "order_url": "https://www.order.store/brand/gabbys",
+    "reservation_url": "",
+    "private_events": true,
+    "private_events_url": "https://gabbys.ca/book-an-event",
+    "gift_card_url": "",
+    "description": "Part of Gabby's Kitchen + Bar, a family-owned GTA sports bar and casual restaurant chain since 1989, known for award-winning wings, hand-battered fish & chips, and made-to-order chicken tenders. Walk-in only at this location \u2014 online reservations are not offered. No location-specific order-online link was published; the brand-wide ordering hub is given instead.",
+    "status": "open"
+  },
+  {
+    "brand": "Gabby's",
+    "name": "Gabby's The Junction (Dundas West)",
+    "slug": "gabbys-the-junction-dundas-west",
+    "address": "3026 Dundas St. W",
+    "city": "Toronto",
+    "province": "ON",
+    "postal_code": "M6P 1Z2",
+    "phone": "(416) 766-3026",
+    "email": "",
+    "cuisine": "Sports Bar & Grill",
+    "price_range": "$$",
+    "hours": {
+      "mon": [
+        "11:00",
+        "02:00"
+      ],
+      "tue": [
+        "11:00",
+        "02:00"
+      ],
+      "wed": [
+        "11:00",
+        "02:00"
+      ],
+      "thu": [
+        "11:00",
+        "02:00"
+      ],
+      "fri": [
+        "11:00",
+        "02:00"
+      ],
+      "sat": [
+        "09:00",
+        "02:00"
+      ],
+      "sun": [
+        "09:00",
+        "02:00"
+      ]
+    },
+    "hours_note": "",
+    "timezone": "America/Toronto",
+    "menu_url": "https://gabbys.ca/locations/the-junction/menu",
+    "order_url": "https://www.order.store/ca/store/gabbys-on-dundas-st/M5p4GETDQba5IQbU9KKcAQ",
+    "reservation_url": "",
+    "private_events": true,
+    "private_events_url": "https://gabbys.ca/book-an-event",
+    "gift_card_url": "",
+    "description": "Part of Gabby's Kitchen + Bar, a family-owned GTA sports bar and casual restaurant chain since 1989, known for award-winning wings, hand-battered fish & chips, and made-to-order chicken tenders. This location is listed as accepting reservations, but the site's online booking link is currently broken (redirects to the homepage) \u2014 call ahead to reserve. Also hosts weekly karaoke (Fri) and trivia (Thu) nights.",
+    "status": "open"
+  },
+  {
+    "brand": "Gabby's",
+    "name": "Gabby's Upper Canada Mall Newmarket",
+    "slug": "gabbys-upper-canada-mall-newmarket",
+    "address": "17600 Yonge St.",
+    "city": "Newmarket",
+    "province": "ON",
+    "postal_code": "L3Y 4Z1",
+    "phone": "(365) 337-0218",
+    "email": "",
+    "cuisine": "Sports Bar & Grill",
+    "price_range": "$$",
+    "hours": {
+      "mon": [
+        "11:00",
+        "11:00"
+      ],
+      "tue": [
+        "11:00",
+        "11:00"
+      ],
+      "wed": [
+        "11:00",
+        "11:00"
+      ],
+      "thu": [
+        "11:00",
+        "11:00"
+      ],
+      "fri": [
+        "11:00",
+        "11:00"
+      ],
+      "sat": [
+        "11:00",
+        "11:00"
+      ],
+      "sun": [
+        "11:00",
+        "11:00"
+      ]
+    },
+    "hours_note": "Site lists these hours as '11am-11am' every day, which is very likely a publishing error (this location is not open 24/7) \u2014 exact closing time is unconfirmed, verify by phone before relying on this.",
+    "timezone": "America/Toronto",
+    "menu_url": "https://gabbys.ca/locations/upper-canada-mall-newmarket/menu",
+    "order_url": "https://www.order.store/brand/gabbys",
+    "reservation_url": "",
+    "private_events": true,
+    "private_events_url": "https://gabbys.ca/book-an-event",
+    "gift_card_url": "",
+    "description": "Part of Gabby's Kitchen + Bar, a family-owned GTA sports bar and casual restaurant chain since 1989, known for award-winning wings, hand-battered fish & chips, and made-to-order chicken tenders. This location is listed as accepting reservations, but the site's online booking link is currently broken (redirects to the homepage) \u2014 call ahead to reserve. No location-specific order-online link was published; the brand-wide ordering hub is given instead.",
+    "status": "open"
+  }
+]

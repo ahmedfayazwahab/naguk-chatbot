@@ -1,0 +1,55 @@
+{
+  "brand": "Gabby's",
+  "name": "Gabby's Mississauga (Square One)",
+  "slug": "gabbys-mississauga-sq1",
+  "address": "4096 Confederation Pkwy",
+  "city": "Mississauga",
+  "province": "ON",
+  "postal_code": "L5B 0G4",
+  "phone": "(905) 232-8955",
+  "email": "",
+  "cuisine": "Sports Bar & Grill",
+  "price_range": "$$",
+  "hours": {
+    "mon": [
+      "11:00",
+      "02:00"
+    ],
+    "tue": [
+      "11:00",
+      "02:00"
+    ],
+    "wed": [
+      "11:00",
+      "02:00"
+    ],
+    "thu": [
+      "11:00",
+      "02:00"
+    ],
+    "fri": [
+      "11:00",
+      "02:00"
+    ],
+    "sat": [
+      "09:00",
+      "02:00"
+    ],
+    "sun": [
+      "09:00",
+      "02:00"
+    ]
+  },
+  "hours_note": "",
+  "timezone": "America/Toronto",
+  "menu_url": "https://gabbys.ca/locations/mississauga/menu",
+  "order_url": "https://www.order.store/ca/store/gabbys-bar-and-grill-mississauga/u-a_voLRWZOHpn-0_rNz1w",
+  "reservation_url": "",
+  "private_events": true,
+  "private_events_url": "https://gabbys.ca/book-an-event",
+  "gift_card_url": "",
+  "description": "Part of Gabby's Kitchen + Bar, a family-owned GTA sports bar and casual restaurant chain since 1989, known for award-winning wings, hand-battered fish & chips, and made-to-order chicken tenders. Walk-in only at this location \u2014 online reservations are not offered.",
+  "status": "open",
+  "latitude": 43.5868008,
+  "longitude": -79.6476188
+}

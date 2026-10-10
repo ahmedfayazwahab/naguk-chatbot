@@ -1,0 +1,55 @@
+{
+  "brand": "MMV Mumbaiya",
+  "name": "MMV Mumbaiya YorkMills",
+  "slug": "mmv-yorkmills",
+  "address": "861 York Mills Rd",
+  "city": "North York",
+  "province": "ON",
+  "postal_code": "M3B 1Y2",
+  "phone": "+1 (647) 513-7409",
+  "email": "",
+  "cuisine": "Maharashtrian Indian street food (100% vegetarian)",
+  "price_range": "$",
+  "hours": {
+    "mon": [
+      "09:00",
+      "23:00"
+    ],
+    "tue": [
+      "09:00",
+      "23:00"
+    ],
+    "wed": [
+      "09:00",
+      "23:00"
+    ],
+    "thu": [
+      "09:00",
+      "23:00"
+    ],
+    "fri": [
+      "09:00",
+      "23:00"
+    ],
+    "sat": [
+      "09:00",
+      "23:00"
+    ],
+    "sun": [
+      "09:00",
+      "23:00"
+    ]
+  },
+  "hours_note": "A second phone number is also listed for this location: +1 (416) 832-6587.",
+  "timezone": "America/Toronto",
+  "menu_url": "https://mmvmumbaiya.com/wp-content/uploads/2026/05/MMV-QSR.pdf",
+  "order_url": "",
+  "reservation_url": "",
+  "private_events": false,
+  "private_events_url": "",
+  "gift_card_url": "",
+  "description": "MMV (Mumbaiya Misal and Vadapav) is a 100% vegetarian Maharashtrian street food franchise brand with locations worldwide; only the Etobicoke and YorkMills (North York) locations are part of Naguk Group. This location shares the exact same address (861 York Mills Rd) as thairoomgrand's YorkMills location. No online ordering, reservations, or gift cards were found for any MMV Canada location. Catering is available brand-wide: https://mmvmumbaiya.com/catering/. Menu link is a shared brand-wide PDF, not location-specific.",
+  "status": "open",
+  "latitude": 43.7542086,
+  "longitude": -79.3512712
+}

@@ -1,0 +1,55 @@
+{
+  "brand": "MMV Mumbaiya",
+  "name": "MMV Mumbaiya Etobicoke",
+  "slug": "mmv-etobicoke",
+  "address": "680 Rexdale Blvd #23",
+  "city": "Etobicoke",
+  "province": "ON",
+  "postal_code": "M9W 0B5",
+  "phone": "",
+  "email": "",
+  "cuisine": "Maharashtrian Indian street food (100% vegetarian)",
+  "price_range": "$",
+  "hours": {
+    "mon": [
+      "09:00",
+      "23:00"
+    ],
+    "tue": [
+      "09:00",
+      "23:00"
+    ],
+    "wed": [
+      "09:00",
+      "23:00"
+    ],
+    "thu": [
+      "09:00",
+      "23:00"
+    ],
+    "fri": [
+      "09:00",
+      "23:00"
+    ],
+    "sat": [
+      "09:00",
+      "23:00"
+    ],
+    "sun": [
+      "09:00",
+      "23:00"
+    ]
+  },
+  "hours_note": "No phone number is published for this location on MMV's official store locator.",
+  "timezone": "America/Toronto",
+  "menu_url": "https://mmvmumbaiya.com/wp-content/uploads/2026/05/MMV-QSR.pdf",
+  "order_url": "",
+  "reservation_url": "",
+  "private_events": false,
+  "private_events_url": "",
+  "gift_card_url": "",
+  "description": "MMV (Mumbaiya Misal and Vadapav) is a 100% vegetarian Maharashtrian street food franchise brand with locations worldwide; only the Etobicoke and YorkMills (North York) locations are part of Naguk Group. No online ordering, reservations, or gift cards were found for any MMV Canada location. Catering is available brand-wide: https://mmvmumbaiya.com/catering/. Menu link is a shared brand-wide PDF, not location-specific.",
+  "status": "open",
+  "latitude": 43.7200215,
+  "longitude": -79.6057562
+}

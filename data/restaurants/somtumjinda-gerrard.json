@@ -1,0 +1,55 @@
+{
+  "brand": "Somtum Jinda",
+  "name": "Somtum Jinda Gerrard Street (Downtown)",
+  "slug": "somtumjinda-gerrard",
+  "address": "76 Gerrard St E",
+  "city": "Toronto",
+  "province": "ON",
+  "postal_code": "M5B 1G6",
+  "phone": "(416) 351-7576",
+  "email": "somtumtoronto@gmail.com",
+  "cuisine": "Thai (Isaan)",
+  "price_range": "$$",
+  "hours": {
+    "mon": [
+      "11:30",
+      "22:00"
+    ],
+    "tue": [
+      "11:30",
+      "22:00"
+    ],
+    "wed": [
+      "11:30",
+      "22:00"
+    ],
+    "thu": [
+      "11:30",
+      "22:00"
+    ],
+    "fri": [
+      "11:30",
+      "23:00"
+    ],
+    "sat": [
+      "12:00",
+      "23:00"
+    ],
+    "sun": [
+      "12:00",
+      "22:00"
+    ]
+  },
+  "hours_note": "",
+  "timezone": "America/Toronto",
+  "menu_url": "https://somtumjinda.ca/menu",
+  "order_url": "https://www.clover.com/online-ordering/som-tum-jinda-toronto",
+  "reservation_url": "https://www.opentable.ca/r/som-tum-jinda-reservations-toronto?restref=1331932&lang=en-CA&ot_source=Restaurant%20website",
+  "private_events": false,
+  "private_events_url": "",
+  "gift_card_url": "",
+  "description": "Somtum Jinda specializes in Isaan (Northeastern Thai) cuisine. Only the Gerrard Street (Downtown) and Fairview locations are part of Naguk Group; the brand's Kensington Market location (356 College St) is run independently and is NOT managed by Naguk Group. Two gift-card links exist on the brand site, but which one maps to which specific location could not be confirmed.",
+  "status": "open",
+  "latitude": 43.6601169,
+  "longitude": -79.378151
+}

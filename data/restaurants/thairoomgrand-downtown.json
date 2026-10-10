@@ -1,0 +1,55 @@
+{
+  "brand": "thairoomgrand",
+  "name": "thairoomgrand Downtown",
+  "slug": "thairoomgrand-downtown",
+  "address": "303 King St West",
+  "city": "Toronto",
+  "province": "ON",
+  "postal_code": "M5V 1J5",
+  "phone": "416 979 9799",
+  "email": "info@thairoomgrand.com",
+  "cuisine": "Thai",
+  "price_range": "$$",
+  "hours": {
+    "mon": [
+      "11:00",
+      "21:45"
+    ],
+    "tue": [
+      "11:00",
+      "21:45"
+    ],
+    "wed": [
+      "11:00",
+      "21:45"
+    ],
+    "thu": [
+      "11:00",
+      "21:45"
+    ],
+    "fri": [
+      "11:00",
+      "21:45"
+    ],
+    "sat": [
+      "11:00",
+      "21:45"
+    ],
+    "sun": [
+      "11:00",
+      "21:45"
+    ]
+  },
+  "hours_note": "Hours as published on thairoomgrand.com, which lists a single daily template rather than per-day hours; confirm holiday exceptions by phone.",
+  "timezone": "America/Toronto",
+  "menu_url": "https://thairoomgrand.com/menu/downtown",
+  "order_url": "https://thairoomgrand.com/order/downtown",
+  "reservation_url": "https://reserve.thairoomgrand.com/",
+  "private_events": true,
+  "private_events_url": "https://thairoomgrand.com/private-dining",
+  "gift_card_url": "https://order.toasttab.com/egiftcards/naguk-thairoomgrand-downtown",
+  "description": "Part of the thairoomgrand family (by Naguk Eatery Inc), serving authentic Thai cuisine in a warm, welcoming setting since 2010.",
+  "status": "open",
+  "latitude": 43.6462776,
+  "longitude": -79.3903214
+}

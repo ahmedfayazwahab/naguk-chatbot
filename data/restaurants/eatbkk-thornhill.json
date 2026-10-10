@@ -1,0 +1,55 @@
+{
+  "brand": "Eat BKK",
+  "name": "Eat BKK Thornhill",
+  "slug": "eatbkk-thornhill",
+  "address": "10 Disera Dr #130",
+  "city": "Thornhill",
+  "province": "ON",
+  "postal_code": "L4J 0A7",
+  "phone": "365 556 0270",
+  "email": "eatbkk7@gmail.com",
+  "cuisine": "Thai",
+  "price_range": "$$",
+  "hours": {
+    "mon": [
+      "11:00",
+      "22:00"
+    ],
+    "tue": [
+      "11:00",
+      "22:00"
+    ],
+    "wed": [
+      "11:00",
+      "22:00"
+    ],
+    "thu": [
+      "11:00",
+      "22:00"
+    ],
+    "fri": [
+      "11:00",
+      "22:00"
+    ],
+    "sat": [
+      "11:00",
+      "22:00"
+    ],
+    "sun": [
+      "11:00",
+      "22:00"
+    ]
+  },
+  "hours_note": "",
+  "timezone": "America/Toronto",
+  "menu_url": "https://eatbkk.ca/thornhill-menu/",
+  "order_url": "https://www.ubereats.com/ca/store/eat-bkk-thai-kitchen-thornhill/kh_Kr-TlTdOPgt_6sVGPiA",
+  "reservation_url": "https://widgets.libroreserve.com/WEB/ON017017928706/book",
+  "private_events": false,
+  "private_events_url": "",
+  "gift_card_url": "",
+  "description": "Eat BKK is a Thai restaurant brand with several Toronto-area locations; only the Thornhill location is part of Naguk Group. Eat BKK's other locations (Yonge & Sheppard, Yonge & Steeles, Leslieville, Annex) are run independently and are NOT managed by Naguk Group. The site's footer also links to a related brand, Maya Bay (mayabay.ca), not covered here.",
+  "status": "open",
+  "latitude": 43.8114138,
+  "longitude": -79.4537875
+}

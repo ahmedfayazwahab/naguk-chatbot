@@ -1,0 +1,5 @@
+openai
+voyageai
+pinecone
+boto3
+reportlab

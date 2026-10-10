@@ -1,0 +1,55 @@
+{
+  "brand": "thairoomgrand",
+  "name": "thairoomgrand Square One",
+  "slug": "thairoomgrand-squareone",
+  "address": "4096 Confederation Parkway",
+  "city": "Mississauga",
+  "province": "ON",
+  "postal_code": "L5B 0G4",
+  "phone": "905 232 8424",
+  "email": "info@thairoomgrand.com",
+  "cuisine": "Thai",
+  "price_range": "$$",
+  "hours": {
+    "mon": [
+      "11:00",
+      "23:00"
+    ],
+    "tue": [
+      "11:00",
+      "23:00"
+    ],
+    "wed": [
+      "11:00",
+      "23:00"
+    ],
+    "thu": [
+      "11:00",
+      "23:00"
+    ],
+    "fri": [
+      "11:00",
+      "23:00"
+    ],
+    "sat": [
+      "11:00",
+      "23:00"
+    ],
+    "sun": [
+      "11:00",
+      "23:00"
+    ]
+  },
+  "hours_note": "Hours as published on thairoomgrand.com, which lists a single daily template rather than per-day hours; confirm holiday exceptions by phone.",
+  "timezone": "America/Toronto",
+  "menu_url": "https://thairoomgrand.com/menu/squareone",
+  "order_url": "https://thairoomgrand.com/order/squareone",
+  "reservation_url": "https://reserve.thairoomgrand.com/",
+  "private_events": true,
+  "private_events_url": "https://thairoomgrand.com/private-dining",
+  "gift_card_url": "https://order.toasttab.com/egiftcards/naguk-thairoomgrand-squareone",
+  "description": "Part of the thairoomgrand family (by Naguk Eatery Inc), serving authentic Thai cuisine in a warm, welcoming setting since 2010.",
+  "status": "open",
+  "latitude": 43.5868008,
+  "longitude": -79.6476188
+}

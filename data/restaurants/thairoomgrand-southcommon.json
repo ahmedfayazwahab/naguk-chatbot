@@ -1,0 +1,55 @@
+{
+  "brand": "thairoomgrand",
+  "name": "thairoomgrand South Common",
+  "slug": "thairoomgrand-southcommon",
+  "address": "2116 Burnhamthorpe Road West",
+  "city": "Mississauga",
+  "province": "ON",
+  "postal_code": "L5L 5Z5",
+  "phone": "905 449 2116",
+  "email": "info@thairoomgrand.com",
+  "cuisine": "Thai",
+  "price_range": "$$",
+  "hours": {
+    "mon": [
+      "11:00",
+      "23:00"
+    ],
+    "tue": [
+      "11:00",
+      "23:00"
+    ],
+    "wed": [
+      "11:00",
+      "23:00"
+    ],
+    "thu": [
+      "11:00",
+      "23:00"
+    ],
+    "fri": [
+      "11:00",
+      "23:00"
+    ],
+    "sat": [
+      "11:00",
+      "23:00"
+    ],
+    "sun": [
+      "11:00",
+      "23:00"
+    ]
+  },
+  "hours_note": "Hours as published on thairoomgrand.com, which lists a single daily template rather than per-day hours; confirm holiday exceptions by phone.",
+  "timezone": "America/Toronto",
+  "menu_url": "https://thairoomgrand.com/menu/southcomon",
+  "order_url": "https://thairoomgrand.com/order/southcomon",
+  "reservation_url": "https://reserve.thairoomgrand.com/",
+  "private_events": true,
+  "private_events_url": "https://thairoomgrand.com/private-dining",
+  "gift_card_url": "https://order.toasttab.com/egiftcards/naguk-thairoomgrand-southcomon",
+  "description": "Part of the thairoomgrand family (by Naguk Eatery Inc), serving authentic Thai cuisine in a warm, welcoming setting since 2010.",
+  "status": "open",
+  "latitude": 43.5440778,
+  "longitude": -79.6806578
+}

@@ -1,0 +1,108 @@
+[
+  {
+    "brand": "Koh Lipe Thai Kitchen",
+    "name": "Koh Lipe Thai Kitchen Downtown",
+    "slug": "kohlipe-downtown",
+    "address": "35 Baldwin St",
+    "city": "Toronto",
+    "province": "ON",
+    "postal_code": "M5T 1L1",
+    "phone": "+1 (416) 599-9988",
+    "email": "kohlipeto@gmail.com",
+    "cuisine": "Thai (Southern Thai)",
+    "price_range": "$$",
+    "hours": {
+      "mon": [
+        "11:30",
+        "22:00"
+      ],
+      "tue": [
+        "11:30",
+        "22:00"
+      ],
+      "wed": [
+        "11:30",
+        "22:00"
+      ],
+      "thu": [
+        "11:30",
+        "22:00"
+      ],
+      "fri": [
+        "11:30",
+        "22:00"
+      ],
+      "sat": [
+        "12:00",
+        "23:00"
+      ],
+      "sun": [
+        "12:00",
+        "22:00"
+      ]
+    },
+    "hours_note": "Site shows one shared 'Open Hours' block on its Contact page that did not change when switching between the Downtown and Scarborough location tabs \u2014 treated here as shared hours for both locations rather than confirmed per-location hours.",
+    "timezone": "America/Toronto",
+    "menu_url": "https://kohlipe.ca/menu-baldwin/",
+    "order_url": "https://www.foodbooking.com/ordering/restaurant/menu?restaurant_uid=684ae14c-861c-4179-a8c8-1cbb90210929",
+    "reservation_url": "https://www.opentable.ca/widget/reservation/mural?restaurantIds=1260985,1320952&type=multi&colorThemeId=1&isDarkMode=false&isIframe=true&domain=ca&lang=en-CA&isNewTab=true&otSource=Restaurant%20website&font=BrandonText&primaryColor=ffffff&primaryFontColor=333333&buttonColor=da3743&buttonFontColor=ffffff&logoPid=0&backgroundPid=0&demo=false&otLogo=standard&loadAllWidgets=false",
+    "private_events": false,
+    "private_events_url": "",
+    "gift_card_url": "https://salmonrestaurant.com/koh-lipe-thai-kitchen/gift-cards/koh-lipe-10-00-10000-00-cad",
+    "description": "Koh Lipe Thai Kitchen brings authentic Southern Thai cuisine to Toronto, recognized by the Michelin Guide Canada from 2022-2025. Also orderable via Uber Eats: https://www.ubereats.com/ca/store/koh-lipe/701u5fc7QLqMpYKd7BuY1g",
+    "status": "open"
+  },
+  {
+    "brand": "Koh Lipe Thai Kitchen",
+    "name": "Koh Lipe Thai Kitchen Scarborough",
+    "slug": "kohlipe-scarborough",
+    "address": "4675 Steeles Ave E",
+    "city": "Scarborough",
+    "province": "ON",
+    "postal_code": "M1V 0B7",
+    "phone": "+1 (416) 291-5855",
+    "email": "kohlipesc@gmail.com",
+    "cuisine": "Thai (Southern Thai)",
+    "price_range": "$$",
+    "hours": {
+      "mon": [
+        "11:30",
+        "22:00"
+      ],
+      "tue": [
+        "11:30",
+        "22:00"
+      ],
+      "wed": [
+        "11:30",
+        "22:00"
+      ],
+      "thu": [
+        "11:30",
+        "22:00"
+      ],
+      "fri": [
+        "11:30",
+        "22:00"
+      ],
+      "sat": [
+        "12:00",
+        "23:00"
+      ],
+      "sun": [
+        "12:00",
+        "22:00"
+      ]
+    },
+    "hours_note": "Site shows one shared 'Open Hours' block on its Contact page that did not change when switching between the Downtown and Scarborough location tabs \u2014 treated here as shared hours for both locations rather than confirmed per-location hours.",
+    "timezone": "America/Toronto",
+    "menu_url": "https://kohlipe.ca/menu-scarborough/",
+    "order_url": "https://www.foodbooking.com/ordering/restaurant/menu?restaurant_uid=6ca476a7-2524-4b9d-9bc3-c778f4611904",
+    "reservation_url": "https://www.opentable.ca/widget/reservation/mural?restaurantIds=1260985,1320952&type=multi&colorThemeId=1&isDarkMode=false&isIframe=true&domain=ca&lang=en-CA&isNewTab=true&otSource=Restaurant%20website&font=BrandonText&primaryColor=ffffff&primaryFontColor=333333&buttonColor=da3743&buttonFontColor=ffffff&logoPid=0&backgroundPid=0&demo=false&otLogo=standard&loadAllWidgets=false",
+    "private_events": false,
+    "private_events_url": "",
+    "gift_card_url": "https://salmonrestaurant.com/koh-lipe-thai-kitchen-scarborough/gift-cards/koh-lipe-thai-kitchen-scarborough-10-00-10000-00-cad",
+    "description": "Koh Lipe Thai Kitchen brings authentic Southern Thai cuisine to Toronto, recognized by the Michelin Guide Canada from 2022-2025. Also orderable via Uber Eats: https://www.ubereats.com/ca/store/koh-lipe/MCQ1fz6TWoC0sa5qg1StVw",
+    "status": "open"
+  }
+]

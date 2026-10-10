@@ -1,0 +1,55 @@
+{
+  "brand": "Gabby's",
+  "name": "Gabby's Upper Canada Mall Newmarket",
+  "slug": "gabbys-upper-canada-mall-newmarket",
+  "address": "17600 Yonge St.",
+  "city": "Newmarket",
+  "province": "ON",
+  "postal_code": "L3Y 4Z1",
+  "phone": "(365) 337-0218",
+  "email": "",
+  "cuisine": "Sports Bar & Grill",
+  "price_range": "$$",
+  "hours": {
+    "mon": [
+      "11:00",
+      "11:00"
+    ],
+    "tue": [
+      "11:00",
+      "11:00"
+    ],
+    "wed": [
+      "11:00",
+      "11:00"
+    ],
+    "thu": [
+      "11:00",
+      "11:00"
+    ],
+    "fri": [
+      "11:00",
+      "11:00"
+    ],
+    "sat": [
+      "11:00",
+      "11:00"
+    ],
+    "sun": [
+      "11:00",
+      "11:00"
+    ]
+  },
+  "hours_note": "Site lists these hours as '11am-11am' every day, which is very likely a publishing error (this location is not open 24/7) \u2014 exact closing time is unconfirmed, verify by phone before relying on this.",
+  "timezone": "America/Toronto",
+  "menu_url": "https://gabbys.ca/locations/upper-canada-mall-newmarket/menu",
+  "order_url": "https://www.order.store/brand/gabbys",
+  "reservation_url": "",
+  "private_events": true,
+  "private_events_url": "https://gabbys.ca/book-an-event",
+  "gift_card_url": "",
+  "description": "Part of Gabby's Kitchen + Bar, a family-owned GTA sports bar and casual restaurant chain since 1989, known for award-winning wings, hand-battered fish & chips, and made-to-order chicken tenders. This location is listed as accepting reservations, but the site's online booking link is currently broken (redirects to the homepage) \u2014 call ahead to reserve. No location-specific order-online link was published; the brand-wide ordering hub is given instead.",
+  "status": "open",
+  "latitude": 44.0563018,
+  "longitude": -79.4851708
+}

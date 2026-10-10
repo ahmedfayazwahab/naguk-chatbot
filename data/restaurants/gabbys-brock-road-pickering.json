@@ -1,0 +1,55 @@
+{
+  "brand": "Gabby's",
+  "name": "Gabby's Brock Road Pickering",
+  "slug": "gabbys-brock-road-pickering",
+  "address": "1899 Brock Rd",
+  "city": "Pickering",
+  "province": "ON",
+  "postal_code": "L1V 4H7",
+  "phone": "(905) 556-1662",
+  "email": "",
+  "cuisine": "Sports Bar & Grill",
+  "price_range": "$$",
+  "hours": {
+    "mon": [
+      "11:00",
+      "02:00"
+    ],
+    "tue": [
+      "11:00",
+      "02:00"
+    ],
+    "wed": [
+      "11:00",
+      "02:00"
+    ],
+    "thu": [
+      "11:00",
+      "02:00"
+    ],
+    "fri": [
+      "11:00",
+      "02:00"
+    ],
+    "sat": [
+      "11:00",
+      "02:00"
+    ],
+    "sun": [
+      "11:00",
+      "02:00"
+    ]
+  },
+  "hours_note": "",
+  "timezone": "America/Toronto",
+  "menu_url": "https://gabbys.ca/locations/brock-road-pickering/menu",
+  "order_url": "https://www.order.store/ca/store/gabbys-pickering/xPG3zPegWUK-3kEPP18rfg",
+  "reservation_url": "https://gabbyspickering.ca",
+  "private_events": true,
+  "private_events_url": "https://gabbys.ca/book-an-event",
+  "gift_card_url": "",
+  "description": "Part of Gabby's Kitchen + Bar, a family-owned GTA sports bar and casual restaurant chain since 1989, known for award-winning wings, hand-battered fish & chips, and made-to-order chicken tenders.",
+  "status": "open",
+  "latitude": 43.8473263,
+  "longitude": -79.0716436
+}

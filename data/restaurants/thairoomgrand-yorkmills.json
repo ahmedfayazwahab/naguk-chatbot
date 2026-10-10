@@ -1,0 +1,55 @@
+{
+  "brand": "thairoomgrand",
+  "name": "thairoomgrand YorkMills",
+  "slug": "thairoomgrand-yorkmills",
+  "address": "861 Yorkmills Road Unit 9",
+  "city": "North York",
+  "province": "ON",
+  "postal_code": "M3B 1Y2",
+  "phone": "416 444 7223",
+  "email": "info@thairoomgrand.com",
+  "cuisine": "Thai",
+  "price_range": "$$",
+  "hours": {
+    "mon": [
+      "11:00",
+      "23:00"
+    ],
+    "tue": [
+      "11:00",
+      "23:00"
+    ],
+    "wed": [
+      "11:00",
+      "23:00"
+    ],
+    "thu": [
+      "11:00",
+      "23:00"
+    ],
+    "fri": [
+      "11:00",
+      "23:00"
+    ],
+    "sat": [
+      "11:00",
+      "23:00"
+    ],
+    "sun": [
+      "11:00",
+      "23:00"
+    ]
+  },
+  "hours_note": "Hours as published on thairoomgrand.com, which lists a single daily template rather than per-day hours; confirm holiday exceptions by phone.",
+  "timezone": "America/Toronto",
+  "menu_url": "https://thairoomgrand.com/menu/yorkmills",
+  "order_url": "https://thairoomgrand.com/order/yorkmills",
+  "reservation_url": "https://reserve.thairoomgrand.com/",
+  "private_events": true,
+  "private_events_url": "https://thairoomgrand.com/private-dining",
+  "gift_card_url": "https://order.toasttab.com/egiftcards/naguk-thairoomgrand-yorkmills",
+  "description": "Part of the thairoomgrand family (by Naguk Eatery Inc), serving authentic Thai cuisine in a warm, welcoming setting since 2010.",
+  "status": "open",
+  "latitude": 43.7537778,
+  "longitude": -79.3538079
+}

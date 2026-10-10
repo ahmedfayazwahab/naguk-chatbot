@@ -1,0 +1,55 @@
+{
+  "brand": "thairoomgrand",
+  "name": "thairoomgrand Pickering",
+  "slug": "thairoomgrand-pickering",
+  "address": "E-1899 Brock Rd",
+  "city": "Pickering",
+  "province": "ON",
+  "postal_code": "L1V 1C5",
+  "phone": "905 556 1663",
+  "email": "info@thairoomgrand.com",
+  "cuisine": "Thai",
+  "price_range": "$$",
+  "hours": {
+    "mon": [
+      "11:00",
+      "23:00"
+    ],
+    "tue": [
+      "11:00",
+      "23:00"
+    ],
+    "wed": [
+      "11:00",
+      "23:00"
+    ],
+    "thu": [
+      "11:00",
+      "23:00"
+    ],
+    "fri": [
+      "11:00",
+      "23:00"
+    ],
+    "sat": [
+      "11:00",
+      "23:00"
+    ],
+    "sun": [
+      "11:00",
+      "23:00"
+    ]
+  },
+  "hours_note": "Hours as published on thairoomgrand.com, which lists a single daily template rather than per-day hours; confirm holiday exceptions by phone.",
+  "timezone": "America/Toronto",
+  "menu_url": "https://thairoomgrand.com/menu/pickering",
+  "order_url": "https://thairoomgrand.com/order/pickering",
+  "reservation_url": "https://reserve.thairoomgrand.com/",
+  "private_events": true,
+  "private_events_url": "https://thairoomgrand.com/private-dining",
+  "gift_card_url": "https://order.toasttab.com/egiftcards/naguk-thairoomgrand-pickering",
+  "description": "Part of the thairoomgrand family (by Naguk Eatery Inc), serving authentic Thai cuisine in a warm, welcoming setting since 2010.",
+  "status": "open",
+  "latitude": 43.8476761,
+  "longitude": -79.0730319
+}

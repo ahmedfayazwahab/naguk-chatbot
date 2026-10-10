@@ -1,0 +1,55 @@
+{
+  "brand": "thairoomgrand",
+  "name": "thairoomgrand Etobicoke",
+  "slug": "thairoomgrand-etobicoke",
+  "address": "5112 Dundas St West",
+  "city": "Etobicoke",
+  "province": "ON",
+  "postal_code": "M9A 1C2",
+  "phone": "416 234 1213",
+  "email": "info@thairoomgrand.com",
+  "cuisine": "Thai",
+  "price_range": "$$",
+  "hours": {
+    "mon": [
+      "11:00",
+      "22:00"
+    ],
+    "tue": [
+      "11:00",
+      "22:00"
+    ],
+    "wed": [
+      "11:00",
+      "22:00"
+    ],
+    "thu": [
+      "11:00",
+      "22:00"
+    ],
+    "fri": [
+      "11:00",
+      "22:00"
+    ],
+    "sat": [
+      "11:00",
+      "22:00"
+    ],
+    "sun": [
+      "11:00",
+      "22:00"
+    ]
+  },
+  "hours_note": "Hours as published on thairoomgrand.com, which lists a single daily template rather than per-day hours; confirm holiday exceptions by phone.",
+  "timezone": "America/Toronto",
+  "menu_url": "https://thairoomgrand.com/menu/etobicoke",
+  "order_url": "https://thairoomgrand.com/order/etobicoke",
+  "reservation_url": "https://reserve.thairoomgrand.com/",
+  "private_events": true,
+  "private_events_url": "https://thairoomgrand.com/private-dining",
+  "gift_card_url": "https://order.toasttab.com/egiftcards/naguk-thairoomgrand-etobicoke",
+  "description": "Part of the thairoomgrand family (by Naguk Eatery Inc), serving authentic Thai cuisine in a warm, welcoming setting since 2010.",
+  "status": "open",
+  "latitude": 43.6446601,
+  "longitude": -79.532909
+}
